@@ -9,81 +9,95 @@
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="css/main.css" type="text/css" rel="stylesheet" />
+  <script src="javascript/nav.js"></script>
 </head>
 <body>
-<nav>
-  <div class="navbar">
-    
-    <h1><a href="./index.html" style="font-size:32px">SWIRL</a></h1>
 
-    <!-- Home Dropdown-->
-    <div class="dropdown">
-     <button class="dropbtn"><a href="./index.html" style="color:#CFC493; padding: 0 15px; margin-top:20px;">Home<span style="font-size:10px;">&#9660;</span></a>
+<nav>
+  <div class="topnav" id="myTopnav">
+
+      <!-- Resources Link -->
+      <div class="dropdown">
+         <button class="dropbtn"><a style="font-size: 24px; margin: 0 5vw;">SWIRL</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          </div>
+
+      <!-- Homepage Dropdown -->
+      <div class="dropdown">
+      <button class="dropbtn"><a href="./index.html" style="color: #CFC493;">Home</a>
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="#swirl">What is SWIRL?</a>
-        <a href="#gbv">What is Gender-based Violence?</a>
-        <a href="#approach">Our Approach</a>
-        <a href="#services">Services Offered</a>
+        <a href="./index.html#swirl">What is SWIRL?</a>
+        <a href="./index.html#gbv">What is Gender-based Violence?</a>
+        <a href="./index.html#approach">Our Approach</a>
+        <a href="./index.html#services">Services Offered</a>
       </div>
     </div>
 
-    <!-- Team Dropdown-->
-    <div class="dropdown">
-      <button class="dropbtn"><a href="./team.html" style="padding: 0 15px; margin-top:20px;">Our Team <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-         <a href="./team.html#lscholars">Leadership</a>
-         <a href="./team.html#ascholars">Affiliate Scientists</a>
-         <a href="./team.html#sscholars">Student Scholars</a>
-         <a href="./contactus.html">Contact Us</a>
-       </div>
-     </div>
+          <!-- Team Dropdown -->
+          <div class="dropdown">
+          <button class="dropbtn"><a href="./team.html">Our Team <span>&#9660;</span></a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./team.html#lscholars">Leadership</a>
+            <a href="./team.html#ascholars">Affiliate Scientists</a>
+            <a href="./team.html#sscholars">Student Scholars</a>
+            <a href="./contactus.html">Contact Us</a>   
+          </div>
+        </div>
+      
+          <!-- Academic Work Dropdown -->
+          <div class="dropdown">
+            <button class="dropbtn"><a>Academic Work <span>&#9660;</span></a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./publications.html">Highlighted Publications</a>
+              <a href="./apresentations.html">Academic Presentations</a>
+              <a href="./cresearch.html">Current Research</a>
+              <a href="./presearch.html">Previous Research</a>
+              <a href="./smresearch.html">Student Mentored Research</a>      
+            </div>
+          </div>
 
-     <!-- Academic Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Academic Work <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-        <a href="./publications.html">Highlighted Publications</a>
-        <a href="./apresentations.html">Academic Presentations</a>
-        <a href="./cresearch.html">Current Research</a>
-        <a href="./presearch.html">Previous Research</a>
-        <a href="./smresearch.html">Student Mentored Research</a>
-       </div>
-     </div>
+          <!-- Community-based Work Dropdown -->
+          <div class="dropdown">
+            <button class="dropbtn"><a>Community-based Work <span>&#9660;</span></a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./krikkrakproject.html">Krik Krak Mental Health</a>   
+              <a href="./cbuilding.html">Capacity Building</a>        
+            </div>
+          </div>
 
-      <!-- Community Outreach Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Community-based Work <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content" style="margin-inline-start: 15px;">
-        <a href="./krikkrakproject.html">Krik Krak Mental Health</a>   
-        <a href="./cbuilding.html">Capacity Building</a>
-       </div>
-      </span>
-     </div>
-    
-     <!-- Resources Link-->
-     <a href="./resources.html" style="padding: 0 15px; margin-top: 22px;">Resources</a>
+          <!-- Resources Link -->
+          <div class="dropdown">
+            <button class="dropbtn"><a href="./resources.html">Resources</a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+          </div>
 
-     <!-- Collaborations Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Collaborations (External Links*) <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-        <a href="https://orezoncs.wordpress.com/" target="_blank">OREZON Cit<span>&eacute;</span> Soleil</a>
-        <a href="https://www.svri.org/" target="_blank">The Sexual Violence Research Initiative</a>
-        <a href="https://www.who.int/" target="_blank">World Health Organization</a>
-        <a href="https://krikkrakmentalhealth.com/" target="_blank">Krik Krak Mental Health</a>
-        <a href="https://hfssusa.org/" target="_blank">Hindu Family Support Services</a>
-       </div>
-     </div>  
+          <!-- Collaborations Dropdown -->
+          <div class="dropdown">
+            <button class="dropbtn"><a>Collaborations (External Links*) <span>&#9660;</span></a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://orezoncs.wordpress.com/" target="_blank">OREZON Cit<span>&eacute;</span> Soleil</a>
+              <a href="https://www.svri.org/" target="_blank">The Sexual Violence Research Initiative</a>
+              <a href="https://www.who.int/" target="_blank">World Health Organization</a>
+              <a href="https://krikkrakmentalhealth.com/" target="_blank">Krik Krak Mental Health</a>
+              <a href="https://hfssusa.org/" target="_blank">Hindu Family Support Services</a>        
+            </div>
+          </div>
+
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
 </nav>
 
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
@@ -91,10 +105,12 @@
 <span class="border">
 
 <header>
-  <h1 style="font-size:28px;" class="reducemargins">University of South Florida <br /> School of Social Work's</h1>
+  <h1 class="reducemargins">University of South Florida <br /> School of Social Work's:</h1>
+  <br /> <br />
+  <hr class="line-style" style="width: 50%;"/>
   <h1>Social Work Interdisciplinary Research Lab</h1>
   <br /> <br />
-  <img src="images/swirllablogo.png" alt="SWIRL Logo" width="25%" height="25%" />
+  <img src="images/swirllablogo.png" alt="SWIRL Logo" />
   <br /> <br />
   <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
 </header>
@@ -135,7 +151,7 @@
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
 
 <section class="style2" id="services">
-  <h1>Our Services:</h1>
+  <h3>Our Services:</h3>
 
   <br />
 
@@ -171,8 +187,8 @@
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
 
 <section class="style2 reducemargins" id="joinus">
-  <h2 style="font-size:24px; text-align:center;">Want to Join or Learn More?</h2>
-  <p style="font-size:22px;text-align:center; font-weight:bold; text-transform:uppercase;"><a href="./contactus.html">Contact Us!</a></p>
+  <h3 style="text-align:center; font-weight:bold;">Want to Join or Learn More?</h3>
+  <h2 style="text-align:center; font-weight:bold; text-transform:uppercase;"><a href="./contactus.html">Contact Us!</a></h2>
 </section>
 </span>
 
