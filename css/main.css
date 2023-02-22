@@ -18,8 +18,6 @@
 body {
   display: flexbox;
   flex-direction: column;
-  min-height: 50vh;
-  min-width: 50vh;
 }
 
 p {
@@ -40,6 +38,7 @@ padding: 4px;
 text-align: center;
 }
 
+@media screen and (min-width: 601px) {
 .border {
   display: block;
   border-style: solid;
@@ -50,7 +49,34 @@ text-align: center;
   margin-left: auto;
   padding: 2.5em;
 }
+}
 
+@media screen and (max-width: 600px) {
+.border {
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #CFC493;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5em;
+}
+}
+
+@media screen and (min-width: 601px) {
+.border2 {
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #006747;
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (max-width: 600px) {
 .border2 {
     display: block;
     border-style: solid;
@@ -60,7 +86,7 @@ text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
-
+}
 
 a:link {
   color: #009374;
@@ -107,7 +133,7 @@ a:hover {
     box-shadow: 50vh 0 0 0 #006747;
     top: 0;
     display:flexbox;
-    margin: -10px -10px 10px -10px;
+    margin: -10px -5px -10px -10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -304,7 +330,7 @@ a:hover {
     
     @media screen and (min-width: 601px) {
     .style1 h3 {
-        font-weight: 400;
+        font-weight: 700;
         font-size: 24px;
         padding-left: 24px;
         padding-right: 24px;
@@ -315,7 +341,7 @@ a:hover {
     
     @media screen and (min-width: 601px) {
     .style1 h4 {
-      font-weight: 200;
+      font-weight: 400;
       font-size: 16px;
       padding-left: 24px;
       padding-right: 24px;
@@ -326,7 +352,7 @@ a:hover {
     
     @media screen and (min-width: 601px) {
     .style1 p {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 16px;
         padding-left: 24px;
         padding-right: 24px;
@@ -365,7 +391,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
 .style1 h3 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 18px;
     padding-left: 24px;
     padding-right: 24px;
@@ -376,7 +402,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
 .style1 h4 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 14px;
   padding-left: 24px;
   padding-right: 24px;
@@ -387,7 +413,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
 .style1 p {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 14px;
     padding-left: 24px;
     padding-right: 24px;
@@ -449,7 +475,7 @@ a:hover {
 
 @media screen and (min-width: 601px) {
 .style2 p {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     padding-left: 24px;
     padding-right: 24px;
@@ -460,7 +486,7 @@ a:hover {
 
 @media screen and (min-width: 601px) {
 .style2 ul, li {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 16px;
         padding-left: 24px;
         padding-right: 24px;
@@ -508,7 +534,7 @@ a:hover {
   
   @media screen and (max-width: 600px) {
   .style2 p {
-      font-weight: 200;
+      font-weight: 400;
       font-size: 14px;
       padding-left: 24px;
       padding-right: 24px;
@@ -519,7 +545,7 @@ a:hover {
   
   @media screen and (max-width: 600px) {
   .style2 ul, li {
-          font-weight: 200;
+          font-weight: 400;
           font-size: 14px;
           padding-left: 24px;
           padding-right: 24px;
@@ -566,7 +592,7 @@ footer {
   @media screen and (min-width: 601px) {
   footer p {
       color: #fff;
-      font-weight: 200;
+      font-weight: 400;
       font-size: 14px;
       padding-left: 24px;
       padding-right: 24px;
@@ -603,7 +629,7 @@ footer h4 {
 @media screen and (max-width: 600px) {
 footer p {
     color: #fff;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 12px;
     padding-left: 24px;
     padding-right: 24px;
