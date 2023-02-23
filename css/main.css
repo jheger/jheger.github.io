@@ -10,9 +10,8 @@
 /*Universal Styles */
 * {
   font-family: 'Atkins Hyperlegible', sans-serif;
-  color: 466069;
   letter-spacing: 0.05em;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 body {
@@ -70,7 +69,8 @@ text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: #006747;
-    width: 55%;
+    width: 50%;
+    min-width: 50%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -82,11 +82,38 @@ text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: #006747;
-    width: 33%;
+    width: 50%;
+    min-width: 50%;
     margin-right: auto;
     margin-left: auto;
 }
 }
+
+@media screen and (min-width: 601px) {
+  .border3 {
+      display: block;
+      text-align: center;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #006747;
+      width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+  .border3 {
+      display: block;
+      text-align: center;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #006747;
+      min-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  }
 
 a:link {
   color: #009374;
@@ -103,6 +130,10 @@ a:hover {
 /* Universal Classes */ 
 .block-spacer {
   clear:both;
+}
+
+.italicized { 
+  font-style: italic; 
 }
 
 .line-style {
@@ -124,6 +155,25 @@ a:hover {
   margin-bottom: -10px;
 }
 
+/* IFrame */
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border:#CFC493;
+}
 
 /* Navigation Styles */
 /* Add a black background color to the top navigation */
@@ -356,7 +406,7 @@ a:hover {
         font-size: 16px;
         padding-left: 24px;
         padding-right: 24px;
-        line-height: 1.25;
+        line-height: 1.5;
         box-sizing: border-box;
     }
     }
@@ -366,8 +416,10 @@ a:hover {
       display: block;
       margin-right: auto;
       margin-left: auto;
-      height: 25%;
-      width: 25%;
+      height: 30%;
+      width: 30%;
+      max-height: 30%;
+      max-width: 30%;
       border:#CFC493;
       border-width: 2px;
       border-style: solid;
@@ -417,7 +469,7 @@ a:hover {
     font-size: 14px;
     padding-left: 24px;
     padding-right: 24px;
-    line-height: 1.25;
+    line-height: 1.5;
     box-sizing: border-box;
 }
 }
@@ -427,8 +479,10 @@ a:hover {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
+  max-height: 50%;
+  max-width: 50%;
   border:#CFC493;
   border-width: 2px;
   border-style: solid;
@@ -474,12 +528,23 @@ a:hover {
 }
 
 @media screen and (min-width: 601px) {
+  .style2 h4 {
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
 .style2 p {
     font-weight: 400;
     font-size: 16px;
     padding-left: 24px;
     padding-right: 24px;
-    line-height: 1.15;
+    line-height: 1.5;
     box-sizing: border-box;
 }
 }
@@ -497,6 +562,22 @@ a:hover {
 
 }
 }
+
+@media screen and (min-width: 601px) {
+  .style2 img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50%;
+    width: 50%;
+    min-height: 50%;
+    min-width: 50%;
+    border-width: 2px;
+    border-style: solid;
+    background-color:#006747;
+    padding: 4px;
+  }
+  }
 
   /* Style 2 - For asides and other paragraphs min-width:601px */
   @media screen and (max-width: 600px) {
@@ -531,6 +612,18 @@ a:hover {
       text-align: left;
   }
   }
+
+  @media screen and (max-width: 600px) {
+    .style2 h4 {
+      font-weight: 400;
+      font-size: 14px;
+      padding-left: 24px;
+      padding-right: 24px;
+      box-sizing: border-box;
+    }
+  }
+  
+
   
   @media screen and (max-width: 600px) {
   .style2 p {
@@ -557,6 +650,102 @@ a:hover {
   }
   }
 
+  @media screen and (max-width: 600px) {
+    .style2 img {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      height: 30%;
+      width: 30%;
+      min-height: 30%;
+      min-width: 30%;
+      border:#CFC493;
+      border-width: 2px;
+      border-style: solid;
+      background-color:#006747;
+      padding: 4px;
+    }
+    }
+
+  /* modal image */
+  /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  align-items: flex-start;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: inline-flexbox;
+  align-items: flex-start;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  text-align: center;
+  color: #CFC493;
+  padding: 10px 0;
+  align-items: flex-start;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #CFC493;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #006747;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 80%;
+  }
+  }
+  
   /* Footer Styles */
 
 footer {
