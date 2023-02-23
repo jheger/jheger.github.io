@@ -2,89 +2,106 @@
 <html lang="en-US">
 
 <head>
-  <title>SWIRL - Social Work Interdisciplinary Research Lab</title>
+  <title>Team - SWIRL - Social Work Interdisciplinary Research Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="css/main.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="javascript/main.js"></script>
 </head>
 <body>
+
 <nav>
-  <div class="navbar">
-    
-    <h1><a href="./index.html" style="font-size:32px">SWIRL</a></h1>
-
-    <!-- Home Dropdown-->
-    <div class="dropdown">
-     <button class="dropbtn"><a href="./index.html" style="padding: 0 15px; margin-top:20px;">Home<span style="font-size:10px;">&#9660;</span></a>
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="./index.html#swirl">What is SWIRL?</a>
-        <a href="./index.html#gbv">What is Gender-based Violence?</a>
-        <a href="./index.html#approach">Our Approach</a>
-        <a href="./index.html#services">Services Offered</a>
+    <div class="topnav" id="myTopnav">
+  
+        <!-- Resources Link -->
+        <div class="dropdown">
+           <button class="dropbtn"><a style="font-size: 24px; margin: 0 5vw;">SWIRL</a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            </div>
+  
+        <!-- Homepage Dropdown -->
+        <div class="dropdown">
+        <button class="dropbtn"><a href="./index.html">Home <span>&#9660;</span></a>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./index.html#swirl">What is SWIRL?</a>
+          <a href="./index.html#gbv">What is Gender-based Violence?</a>
+          <a href="./index.html#approach">Our Approach</a>
+          <a href="./index.html#services">Services Offered</a>
+        </div>
       </div>
+  
+            <!-- Team Dropdown -->
+            <div class="dropdown">
+            <button class="dropbtn"><a href="./team.html" style="color: #CFC493;">Our Team <span style="color:#fff;">&#9660;</span></a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./team.html#lscholars">Leadership</a>
+              <a href="./team.html#ascholars">Affiliate Scientists</a>
+              <a href="./team.html#sscholars">Student Scholars</a>
+              <a href="./contactus.html">Contact Us</a>   
+            </div>
+          </div>
+        
+            <!-- Academic Work Dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn"><a>Academic Work <span>&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./publications.html">Highlighted Publications</a>
+                <a href="./apresentations.html">Academic Presentations</a>
+                <a href="./cresearch.html">Current Research</a>
+                <a href="./presearch.html">Previous Research</a>
+                <a href="./smresearch.html">Student Mentored Research</a>      
+              </div>
+            </div>
+  
+            <!-- Community-based Work Dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn"><a>Community-based Work <span>&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./krikkrakproject.html">Krik Krak Mental Health</a>   
+                <a href="./cbuilding.html">Capacity Building</a>        
+              </div>
+            </div>
+  
+            <!-- Resources Link -->
+            <div class="dropdown">
+              <button class="dropbtn"><a>Resources <span>&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./resources.html#takeaction">Men and Boys Take Action</a>
+              </div>
+            </div>
+  
+            <!-- Collaborations Dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn"><a>Collaborations (External Links*) <span>&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://orezoncs.wordpress.com/" target="_blank">OREZON Cit<span>&eacute;</span> Soleil</a>
+                <a href="https://www.svri.org/" target="_blank">The Sexual Violence Research Initiative</a>
+                <a href="https://www.who.int/" target="_blank">World Health Organization</a>
+                <a href="https://krikkrakmentalhealth.com/" target="_blank">Krik Krak Mental Health</a>
+                <a href="https://hfssusa.org/" target="_blank">Hindu Family Support Services</a>        
+              </div>
+            </div>
+  
+  
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-
-    <!-- Team Dropdown-->
-    <div class="dropdown">
-      <button class="dropbtn"><a href="./team.html" style="color:#CFC493; padding: 0 15px; margin-top:20px;">Our Team <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-         <a href="./team.html#lscholars">Leadership</a>
-         <a href="./team.html#ascholars">Affiliate Scientists</a>
-         <a href="./team.html#sscholars">Student Scholars</a>
-         <a href="./contactus.html">Contact Us</a>
-       </div>
-     </div>
-
-     <!-- Academic Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Academic Work <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-        <a href="./publications.html">Highlighted Publications</a>
-        <a href="./apresentations.html">Academic Presentations</a>
-        <a href="./cresearch.html">Current Research</a>
-        <a href="./presearch.html">Previous Research</a>
-        <a href="./smresearch.html">Student Mentored Research</a>
-       </div>
-     </div>
-
-      <!-- Community Outreach Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Community-based Work <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content" style="margin-inline-start: 15px;">
-        <a href="./krikkrakproject.html">Krik Krak Mental Health</a>
-        <a href="./cbuilding.html">Capacity Building</a>
-       </div>
-      </span>
-     </div>
-    
-     <!-- Resources Link-->
-     <a href="./resources.html" style="padding: 0 15px; margin-top: 22px;">Resources</a>
-
-     <!-- Collaborations Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Collaborations (External Links*) <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-        <a href="https://orezoncs.wordpress.com/" target="_blank">OREZON Cit<span>&eacute;</span> Soleil</a>
-        <a href="https://www.svri.org/" target="_blank">The Sexual Violence Research Initiative</a>
-        <a href="https://www.who.int/" target="_blank">World Health Organization</a>
-        <a href="https://krikkrakmentalhealth.com/" target="_blank">Krik Krak Mental Health</a>
-        <a href="https://hfssusa.org/" target="_blank">Hindu Family Support Services</a>
-       </div>
-     </div>  
-</nav>
+  </nav>
 
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
 
@@ -112,6 +129,7 @@
     <h3 style="font-weight: 700;">Guitele J. Rahill, PhD LCSW</h3>
     <h4>Director</h4>
     <p>Dr. Guitele Jeudy Rahill is Associate Professor of Social Work in the College of Behavioral and Community Sciences at the University of South Florida (USF), Senior Affiliate Faculty in the USF College of Public Health Harrell Center, and Director/Founder of SWIRL. Dr. Rahill received her Ph.D. in Social Welfare from Florida International University, where she was a Presidential Fellow.  Her research interests include syndemic interactions among traditional norms, health beliefs and practices, biopsychosocial conditions, geographical disasters, and structural violence, as they affect violence, psychological trauma,  and family system disruption.
+      <a href="./drrahill.html">Click here to read more about Dr. Rahill.</a>
        </br>  </br>
        <a href="https://www.usf.edu/cbcs/social-work/faculty-and-staff/g-rahill.aspx" target="_blank">Click here for Dr. Rahill's CV.</a></p>
        <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
@@ -121,7 +139,8 @@
    <h3 style="font-weight: 700;">Manisha Joshi, PhD MPH</h3>
    <h4>Associate Director</h4>
    <p>Dr. Manisha Joshi, Associate Professor of Social Work in the College of Behavioral and Community Sciences at University of South Florida (USF), has a Ph.D. in Social Welfare from the University of Pennsylvania, School of Social Policy & Practice, MS in Public Health from the Harvard T. H. Chan School of Public Health, and an MSW from the University of Delhi, India. She holds a joint appointment in the College of Public Health at USF.
-      </br>  </br>
+     <a href="./drjoshi.html">Click here to read more about Dr. Joshi.</a> 
+     </br>  </br>
       <a href="https://www.usf.edu/cbcs/social-work/faculty-and-staff/m-joshi.aspx" target="_blank">Click here for Dr. Joshi's CV.</a></p>
   <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
@@ -129,6 +148,7 @@
   <h3 style="font-weight: 700;">Abraham A. Salinas-Miranda, MD PhD MACE CDVS</h3>
   <h4>Director of Public Health Initiatives</h4>
   <p>Dr. Salinas is an Assistant Professor (Research Track) at the University of South Florida College of Public Health (Policy, Practice, and Leadership Strategic Area; MCH Concentration). He serves as the Director of the Harrell Center for the Study of Family Violence at the College of Public Health, University of South Florida. Dr. Salinas is also the Associate Director of the Center of Excellence in Maternal and Child Health Education, Science, and Practice. Dr. Salinas holds degrees in medicine and public health.
+    <a href="./drsalinas.html">Click here to read more about Dr. Salinas.</a> 
     </br>  </br>
     <a href="https://health.usf.edu/publichealth/overviewcoph/faculty/salinas-miranda" target="_blank">Click here for Dr. Salinas's CV.</a></p>
  <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
@@ -139,26 +159,27 @@
 <hr class="line-style" />
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
+<!-- Affiliate Scientists -->
 <section class="style1" id="ascholars">
   <h2 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493;">Affiliate Scientists</h2>
 
   <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-    <img src="./images/team/affiliate/panchanadeswaran.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+    <img src="./images/team/affiliate/panchanadeswaran.png"  alt="SWIRL Logo"  />
     <h3 style="font-weight: 700;">Subadra Panchanadeswaran, PhD MPhil MSW</h3>
     <p>Dr. Panchanadeswaran is a trained social worker and is currently a Professor at the Adelphi University School of Social Work. She teaches Human Behavior Theory and Social Work Research, and Quantitative Research Methodology to graduate and doctoral social work students. Her research examines the intersections of gender-based violence, HIV/AIDS, and substance use both in India and the U.S. among sex workers, substance-using populations, and immigrant women.
        </br>  </br>
        <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here for Dr. Panchanadeswaran's CV.</a></p>
    <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>  
 
-   <img src="./images/team/affiliate/childress.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+   <img src="./images/team/affiliate/childress.png"  alt="SWIRL Logo"  />
    <h3 style="font-weight: 700;">Saltanat Childress, PhD MSW</h3>
    <p>Dr. Childress is an Assistant Professor at the University of Texas-Arlington School of Social Work. Her research is focused on child well-being, economic empowerment, and improving long-term health and social outcomes of families and children. She is dedicated to improving the responses of public health and social service systems to prevent adverse childhood experiences and family violence through developing and evaluating integrated evidence-based interventions focusing on healthy child development and family wellbeing.
      </br>  </br>
      <a href="https://www.uta.edu/academics/faculty/profile?username=childresss" target="_blank">Click here for Dr. Childress's CV.</a></p>
   <div style="height:30px;" aria-hidden="true" class="block-spacer"></div> 
   
-  <img src="./images/team/affiliate/carrington.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+  <img src="./images/team/affiliate/carrington.png"  alt="SWIRL Logo" />
   <h3 style="font-weight: 700;">Cherelle Carrington, PhD LCSW</h3>
   <p>Dr. Cherelle Carrington is an Assistant Professor in the Department of Behavioral Medicine and Psychiatry at West Virginia University. Dr. Carrington received her Ph.D. in Social Welfare from Florida International University. She was a McKnight Fellow and was awarded a five-year scholarship from the Florida Education Fund to pursue her doctoral studies. Dr. Carrington has experience working with couples, children, and families and is a Licensed Clinical Social Worker for the states of West Virginia and Florida. Her research interests include evaluating treatment for female survivors of intimate partner violence with a focus on African American (AA) women, recognizing the historical, economic, social, and cultural context in which AA women live.
     </br>  </br>
@@ -170,10 +191,12 @@
 <hr class="line-style" />
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
+<!-- Student Scholars -->
+
 <section class="style1" id="sscholars">
   <h2 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493;">Student Scholars</h2>
   <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
-  <span class="border2" style="text-align:center; width:50%;">
+  <span class="border3">
     <br />
     <p style="font-weight: 700; font-size: 20px; margin-bottom: 15px; margin-top: -10px;">Meet Our...</p>
     <p><a href="#astudents">Affliate Student Scholars</a></p>
@@ -183,121 +206,148 @@
   </span>
 
   <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
-  <h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline;" id="astudents">Affiliate Student Scholars</h2>
 
-    <img src="./images/team/students/dager.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<!-- Affiliate Student Scholars -->
+  
+<h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline; text-align: center;" id="astudents">Affiliate Student Scholars</h2>
+
+    <img src="./images/team/students/dager.png"  alt="SWIRL Logo" />
     <h3 style="font-weight: 700;">Maria Dager De Cristina, MPH</h3>
     <h4>Director of Translation and Interpretation Initiatives</h4>
     <p>Maria received her MPH with a concentration in Global Health at USF. She is fluent in French, English and Spanish. She is highly motivated to obtain a doctoral degree in the very near future. As an Affliate Scholar in the Social Work Interdisciplinary Lab, she contributes to translation of documents from English to French or vice versa, literature reviews, data entry, data analysis and interpretation.
-      <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
+      <a href="#">Click here to read more about Maria.</a> 
       </br>  </br>
+      <strong>Maria's Research Interest:</strong> Global Public Helath and Epidemiology. </p>
    <div style="height:30px;" aria-hidden="true" class="block-spacer"></div> 
 
-    <img src="./images/team/students/joseph.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+    <img src="./images/team/students/joseph.png"  alt="SWIRL Logo"  />
     <h3 style="font-weight: 700;">Joseph Heger, BSW</h3>
-    <h4>Lab Member; SWIRL Undergraduate Research Assistant 2021-2022</h4>
-    <p>Joseph was a social work undergraduate research assistant and presently an affiliate lab member at SWIRL. During his time at USF, he assisted with data entry at SWIRL, volunteered for a local hospice, and micro-volunteered for an area community development corporation. He currently is a MSW student and a research assistant for the linguistics department at the University of Michigan.
-      <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
+    <h4>Affiliate Lab Member</h4>
+    <p>Joseph started as a social work undergraduate research assistant, and he presently is an affiliate lab member at SWIRL. During his time at USF, he assisted with data entry at SWIRL, volunteered for a local hospice, and micro-volunteered for an area community development corporation. He currently is a MSW student, a research assistant for the linguistics department at the University of Michigan, and a volunteer on various past and current projects that advance end-of-life services, continuing education, and labor rights.
+      <a href="#">Click here to read more about Joseph.</a> 
       </br>  </br>
+      <strong>Joseph's Research Interest:</strong> Social Constructivism and its implications on Health Outcomes, with specific focus on Death and Loss. 
       <a href="https://www.citiprogram.org/verify/?w763d9a20-a8a7-4854-a4c0-de286eb8993d-38411136" target="_blank">View Joseph's CITI Training Certificate here.</a></p>
    <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>  
 
-   <h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline;" id="mstudents">McKnight Funded Student Scholars</h2>
 
-   <img src="./images/team/students/dabo.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<!-- McKnight Funded Student Scholars -->
+<h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline; text-align: center;" id="mstudents">McKnight Funded Student Scholars</h2>
+
+   <img src="./images/team/students/dabo.png"  alt="SWIRL Logo" />
    <h3 style="font-weight: 700;">Bashir Dabo, PhD Candidate</h3>
-   <p>Mr. Bashir Dabo is currently a doctoral candidate in Epidemiology at the USF College of Public Health. He has a Master of Science in Public Health (epidemiology concentration) from Texas A&M University, and a medical degree from Nigeria. His research interests center around Adverse Childhood Experiences, functional neurological disorders, cancer epidemiology and infectious disease epidemiology in racial and ethnic minorities.
-     <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
+   <h4>PhD Candidate Lab Member</h4>
+   <p>Bashir Dabo is currently a doctoral candidate in Epidemiology at the USF College of Public Health. He has a Master of Science in Public Health (epidemiology concentration) from Texas A&M University, and a medical degree from Nigeria. His research interests center around Adverse Childhood Experiences, functional neurological disorders, cancer epidemiology and infectious disease epidemiology in racial and ethnic minorities.
+    <a href="#">Click here to read more about Bashir.</a> 
      </br>  </br>
+     <strong>Bashir's Research Interest:</strong> Adverse Childhood Experiences, functional neurological disorders, cancer epidemiology and infectious disease epidemiology in racial and ethnic minorities.
      <a href="https://www.citiprogram.org/verify/?k2b2b358f-6acd-4d1d-a225-32a0641d989f-21830354" target="_blank">View his CITI Training Certificate here.</a></p>
   <div style="height:30px;" aria-hidden="true" class="block-spacer"></div> 
   
-  <img src="./images/team/students/thelisdort.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+  <img src="./images/team/students/thelisdort.png"  alt="SWIRL Logo"  />
   <h3 style="font-weight: 700;">Fednold Thelisdort, MPhil</h3>
+  <h4>PhD Candidate Lab Member</h4>
   <p>Fednold Thelisdort is a Philosophy instructor at Clark College in Vancouver, Washington, and a former Dependency Case Manager Supervisor for Florida Department Children and Families (DCF) through Eckerd Connect in Hillsborough County. He was previously a Child Protective Investigator for the Oregon Department of Human Services. He is fluent in Haitian Creole, French, Spanish, and English. He earned his master’s degree in Philosophy from the Université de Montréal in Quebec, Canada. He was admitted last year (2021) to the Ph.D. program in Higher Education Administrative at the University of South Florida (USF). He is currently in the process of transitioning from the Ph.D. program in Higher Education Administration to the Public Health Ph.D. program at USF.  
-    <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
+    <a href="#">Click here to read more about Fednold.</a> 
     </br>  </br>
+    <strong>Fednold's Research Interest:</strong> Positive impact that Predictive Learning Analytics may have on the retention issue for Haitian Immigrant first-generation college students in Florida public universities. 
  <div style="height:30px;" aria-hidden="true" class="block-spacer"></div> 
 
- <img src="./images/team/students/houston.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+ <img src="./images/team/students/houston.png"  alt="SWIRL Logo"  />
 <h3 style="font-weight: 700;">Jacqueline Houston, MPH/MSW Student</h3>
+<h4>McKnight Funded Lab Member</h4>
 <p>Jacqueline is a second semester student in the BSW program at USF. She is a first generation college student who found inspiration in the USF Child and Family Studies’ project regarding safe therapeutic and appropriate use of residential treatment. She has completed several training programs such as Child Abuse & Neglect (February 2019), Child Welfare and the Law (February 2019), Child Well-Being (February 2019), Developing Cultural Competence (February 2019), Early Childhood Poverty (February 2019), Effective Communication and Interviewing Skills (February 2019), Information Gathering, Documentation and Judicial Reviews (February 2019). She recently completed a USAID information session on Child Adversity- “Advancing Protection and Care for Children in Adversity (APCCA) Strategy”. Her long- term goal is to earn a PhD degree in social work.
-  </br>  </br>
-  <a href="https://www.citiprogram.org/verify/?wb8dd9a19-5752-4879-a11f-41bb9bc49247-38862933" target="_blank">View Jacqueline's CITI Training Certificate here.</a></p>
+   <a href="#">Click here to read more about Jacqueline.</a>   
+   </br>  </br>
+   <strong>Jacqueline's Research Interest:</strong> 
+   <a href="https://www.citiprogram.org/verify/?wb8dd9a19-5752-4879-a11f-41bb9bc49247-38862933" target="_blank">View Jacqueline's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
- <h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline;" id="cstudents">Current SWIRL Student Scholars</h2>
+<!-- Current SWIRL Student Scholars -->
+
+ <h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline; text-align:center;" id="cstudents">Current SWIRL Student Scholars</h2>
   
-  <img src="./images/team/students/beverly.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+  <img src="./images/team/students/beverly.png"  alt="SWIRL Logo"  />
   <h3 style="font-weight: 700;">Laura Beverly, MSW Student</h3>
   <p>Laura is a 1st year MSW student enrolled in the USF School of Social Work’s online program. Ms. Beverly has experience in child welfare as a court liaison and in providing case management services to underserved clients. She is certified in child welfare and has experience working with 16–28-year-old emerging adults. She has some experience in data collection for field readiness. She is particularly interested in macro social work and in investigating the influence of global fiscal and health policies on the health and wellbeing of underserved populations.
-    <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
+    <a href="./#">Click here to read more about Laura.</a> 
+    <br /> <br />
+    <strong>Laura's Research Interest:</strong> Influence of global fiscal and health policies on the health and wellbeing of underserved populations.
   </p>
  <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
- <img src="./images/team/students/garver.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+ <img src="./images/team/students/garver.png"  alt="SWIRL Logo"  />
  <h3 style="font-weight: 700;">Keila Garver, MSW Student</h3>
  <p>Keila is a 3rd semester student in the USF traditional MSW online student. She is of Mexican origin and speaks Spanish as well as English. Her research and practice interests include the health of underserved populations, especially individuals who have experienced sexual abuse, domestic violence, and other types of violence, as well as psychological trauma, in relation to post-traumatic growth. She recently completed an eight week grant writing course at USF.
-    <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
+   <a href="#">Click here to read more about Keila.</a> 
    </br>  </br>
+   <strong>Jennifer's Research Interest:</strong> Health of underserved populations, especially individuals who have experienced sexual abuse, domestic violence, and other types of violence, as well as psychological trauma, in relation to post-traumatic growth.
    <a href="https://www.citiprogram.org/verify/?w5ece0819-ee8b-4506-afd4-79f9fe6682cc-31542494" target="_blank">View Keila's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
- <img src="./images/team/students/sukijbumrung.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+ <img src="./images/team/students/sukijbumrung.png"  alt="SWIRL Logo" />
  <h3 style="font-weight: 700;">Emilie Sukijbumrung, MSW Student</h3>
- <p>Emilie is a 1st year MSW student in the Advanced standing program at USF. She is director of a non-profit, college access program in Tampa Bay that services highly motivated students from low-income households. She stated that she is “eager to do all that I can to continue my work of lifting up marginalized people and shedding light on the inequities surrounding them.
-    <a href="https://www.adelphi.edu/faculty/profiles/profile.php?PID=0418" target="_blank">Click here to read more.</a>
-   </br>  </br>
-   <a href="https://www.citiprogram.org/verify/?wb9900a2c-02bd-49b6-8e75-3f2ad125d070-44929905" target="_blank">View Emilie's CITI Training Certificate here.</a></p>
+ <p>Emilie is a 1st year MSW student in the Advanced standing program at USF. She is director of a non-profit, college access program in Tampa Bay that services highly motivated students from low-income households. She stated that she is “eager to do all that [she] can to continue my work of lifting up marginalized people and shedding light on the inequities surrounding them".
+     <a href="#">Click here to read more about Emilie.</a> 
+     </br>  </br>
+     <strong>Jennifer's Research Interest:</strong> Marginalized Identities and Inequities.
+     <a href="https://www.citiprogram.org/verify/?wb9900a2c-02bd-49b6-8e75-3f2ad125d070-44929905" target="_blank">View Emilie's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<img src="./images/team/students/reese.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<img src="./images/team/students/reese.png"  alt="SWIRL Logo" />
 <h3 style="font-weight: 700;">Jennifer "Minnie" Reese, MSW Student</h3>
 <p>Minnie is an MSW student at USF Sarasota. She holds a Bachelor’s degree in Criminology and English. She has experience working with youth in teen court and probation for substance abuse, for the Child Substance Abuse Intervention Program (She works with racial ethnic and gender minorities in that context). Her long term research interest is in investigating the impact of substance abuse on families. As a member of the Lab, she would be mentored on the Syndemic interaction between parental substance abuse and subsequent adult substance abuse. With a background in English, she would provide writing and editing support to other Lab members.
+   <a href="#">Click here to read more about Minnie.</a> 
    </br>  </br>
+   <strong>Minnie's Research Interest:</strong> Substance Abuse within Family Structures.
    <a href="https://www.citiprogram.org/verify/?k67309d56-b6a0-4992-981b-a8e1b536dca7-40685294" target="_blank">View Minnie's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<img src="./images/team/students/jadotte.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<img src="./images/team/students/jadotte.png"  alt="SWIRL Logo" />
 <h3 style="font-weight: 700;">Marissa Jadotte, MPH Student</h3>
 <p>Marissa Jadotte is currently a second year Master of Public Health student at the University of South Florida, with a dual concentration in Maternal and Child Health & Epidemiology. Her research interests centers around health disparities, adverse childhood experiences (ACES), intimate partner violence (IPV), and violence prevention in underserved Black communities around the globe. She will be using her passion, knowledge, and skills to contribute to the projects of the Social Work Interdisciplinary Lab. Her long term goal is to either work in the public health field in a non-profit organization that empowers Black Women survivors of IPV and ultimately to pursue a DrPH to explore more and improve upon current violence prevention strategies, programs, and public policy.
-  </br>  </br> 
-  <strong>Marissa's Research Interest:</strong> Violence prevention strategies, programs, and public policy, specifically as it relates to Black women.</p>
+   <a href="#">Click here to read more about Marissa.</a> 
+   </br>  </br> 
+   <strong>Marissa's Research Interest:</strong> Violence prevention strategies, programs, and public policy, specifically as it relates to Black women.</p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<img src="./images/team/students/leigh.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<img src="./images/team/students/leigh.png"  alt="SWIRL Logo"  />
 <h3 style="font-weight: 700;">Brianna Leigh, MSW student</h3>
 <p>Brianna is a 1st year traditional MSW student at USF. She has experience volunteering in a substance abuse residential treatment center and is currently interning in a private school with adolescents. Her real passion lies with trauma and its effect on survivors throughout their life course. She will be using her knowledge and continuing experience to work on improving the comprehensive sexual education that is provided to residents in low and middle income countries.
-  </br>  </br>
-  <strong>Brianna's Research Interest:</strong> Trauma and its impact on survivors' life course.</p>
+   <a href="#">Click here to read more about Brianna.</a> 
+   </br>  </br>
+   <strong>Brianna's Research Interest:</strong> Trauma and its impact on survivors' life course.</p>
   <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<img src="./images/team/students/maliska.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<img src="./images/team/students/maliska.png"  alt="SWIRL Logo" />
 <h3 style="font-weight: 700;">Tori Maliska, MSW student</h3>
 <p>Tori is an MSW student in the USF School of Social Work. She has a passion for developing contextually sound interventions for individuals who survive Military sexual assault, a public health issue she became aware of during her service in the Military.  As a member of the Lab, she would provide support in developing studies that address various types of non-partner sexual violence against individuals, especially against racial and ethnic minority women in the military. Her research interests align with the current Adverse Childhood Events and CE study that the Lab is conducting, particularly about women’s experience of sexual violence, trauma, substance abuse, and post-traumatic growth.
-  </br>  </br>
-  <strong>Tori's Research Interest:</strong> Women’s experience of sexual violence, trauma, substance abuse, and post-traumatic growth.
-  <a href="https://www.citiprogram.org/verify/?w8a5fbc83-4c81-4453-be4f-c16a442f33cb-44743968" target="_blank">View Tori's CITI Training Certificate here.</a></p>
+   <a href="#">Click here to read more about Tori.</a> 
+   </br>  </br>
+   <strong>Tori's Research Interest:</strong> Women’s experience of sexual violence, trauma, substance abuse, and post-traumatic growth.
+   <a href="https://www.citiprogram.org/verify/?w8a5fbc83-4c81-4453-be4f-c16a442f33cb-44743968" target="_blank">View Tori's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<img src="./images/team/students/tran.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<img src="./images/team/students/tran.png"  alt="SWIRL Logo" />
 <h3 style="font-weight: 700;">Chyenne Tran, BSc Student</h3>
 <p>Chyenne Tran is currently a Health Sciences major at the University of South Florida in her final year. She is concentrated in Social & Behavioral Sciences within her major at the College of Public Health. She is currently the website and content manager for the SWIRL website. Her future goals include attending graduate school for Public Health and concentrating in Global Health. Her specific long term goals and research interests are health disparities in the Global South.
-  </br>  </br>
-  <strong>Chyenne's Research Interest:</strong> Health Disparities in the Global South.
-  <a href="https://www.citiprogram.org/verify/?wb9d0d7f6-e452-4d5c-86b0-9b00b041e8a1-45059794" target="_blank">View Chyenne's CITI Training Certificate here.</a></p>
+   <a href="#">Click here to read more about Chyenne.</a> 
+   </br>  </br>
+   <strong>Chyenne's Research Interest:</strong> Health Disparities in the Global South.
+   <a href="https://www.citiprogram.org/verify/?wb9d0d7f6-e452-4d5c-86b0-9b00b041e8a1-45059794" target="_blank">View Chyenne's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<img src="./images/team/students/lopez.png"  alt="SWIRL Logo" width="25%" height="25%"  />
+<img src="./images/team/students/lopez.png"  alt="SWIRL Logo"  />
 <h3 style="font-weight: 700;">Jennifer C. Lopez</h3>
 <p>Jennifer Carina Lopez’s interest in the prevention of violence against women and children stems from personal experience witnessing the impact of Domestic Violence on relatives and friends. She highlights the importance of access to social and economic resources to empower women and girls who survive violence, for them to emerge as individuals who can reduce future risks of assault and share what they learn with the next generations of women and girls. She has shared her passion for empowerment by volunteering at the Centre for Girls in Tampa Bay and is a member of Chi Upsilon Sigma National Latin Sorority Incorporated where they advocate for all women.   
-  </br>  </br>
-  <strong>Jennifer's Research Interest:</strong> Strengthening gender equality and women’s empowerment that associates with improvements in health and development outcomes and the utilization of evidence-based interventions in global communities.
-  <a href="https://www.citiprogram.org/verify/?wb9d0d7f6-e452-4d5c-86b0-9b00b041e8a1-45059794" target="_blank">View Chyenne's CITI Training Certificate here.</a></p>
+   <a href="#">Click here to read more about Jennifer.</a> 
+   </br>  </br>
+   <strong>Jennifer's Research Interest:</strong> Strengthening gender equality and women’s empowerment that associates with improvements in health and development outcomes and the utilization of evidence-based interventions in global communities.
+   <a href="https://www.citiprogram.org/verify/?wb9d0d7f6-e452-4d5c-86b0-9b00b041e8a1-45059794" target="_blank">View Chyenne's CITI Training Certificate here.</a></p>
 <div style="height:30px;" aria-hidden="true" class="block-spacer"></div>
 
-<h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline;" id="pstudents">Previous Student Scholars</h2>
-<h4><a href="./2020to2021studentscholars.hmtl" target="_blank">Click here to read about 2020-2021 student scholars.</a></h4>
+<h3 style="color:#005432; 	text-shadow: -.5px .5px 0 #CFC493, .5px .5px 0 #CFC493, .5px -.5px 0 #CFC493; text-decoration: underline; text-align: center;" id="pstudents">Previous Student Scholars</h2>
+<h4 style="text-align:center;"><a href="./2020to2021studentscholars.html" target="_blank">Click here to read about 2020-2021 student scholars.</a></h4>
 
 <p style="font-size:14px; text-align:center;"><a href="#top">Back to Top of Page.</a></p>
 </section>
@@ -305,6 +355,8 @@
 <hr class="line-style" />
 
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
+
+<!-- Join or Learn More -->
 
 <section class="style2 reducemargins" id="joinus">
   <h2 style="font-size:24px; text-align:center;">Want to Join or Learn More?</h2>

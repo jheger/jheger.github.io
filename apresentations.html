@@ -2,89 +2,103 @@
 <html lang="en-US">
 
 <head>
-  <title>SWIRL - Social Work Interdisciplinary Research Lab</title>
+  <title>Conference Presentations - Academic SWIRL - Social Work Interdisciplinary Research Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="css/main.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="javascript/main.js"></script>
 </head>
 <body>
-<nav>
-  <div class="navbar">
-    
-    <h1><a href="./index.html" style="font-size:32px">SWIRL</a></h1>
 
-    <!-- Home Dropdown-->
-    <div class="dropdown">
-     <button class="dropbtn"><a href="./index.html" style="padding: 0 15px; margin-top:20px;">Home<span style="font-size:10px;">&#9660;</span></a>
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="./index.html#swirl">What is SWIRL?</a>
-        <a href="./index.html#gbv">What is Gender-based Violence?</a>
-        <a href="./index.html#approach">Our Approach</a>
-        <a href="./index.html#services">Services Offered</a>
+  <nav>
+    <div class="topnav" id="myTopnav">
+  
+        <!-- Resources Link -->
+        <div class="dropdown">
+           <button class="dropbtn"><a style="font-size: 24px; margin: 0 5vw;">SWIRL</a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            </div>
+  
+        <!-- Homepage Dropdown -->
+        <div class="dropdown">
+        <button class="dropbtn"><a href="./index.html">Home <span>&#9660;</span></a>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./index.html#swirl">What is SWIRL?</a>
+          <a href="./index.html#gbv">What is Gender-based Violence?</a>
+          <a href="./index.html#approach">Our Approach</a>
+          <a href="./index.html#services">Services Offered</a>
+        </div>
       </div>
+  
+            <!-- Team Dropdown -->
+            <div class="dropdown">
+            <button class="dropbtn"><a href="./team.html">Our Team <span>&#9660;</span></a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./team.html#lscholars">Leadership</a>
+              <a href="./team.html#ascholars">Affiliate Scientists</a>
+              <a href="./team.html#sscholars">Student Scholars</a>
+              <a href="./contactus.html">Contact Us</a>   
+            </div>
+          </div>
+        
+            <!-- Academic Work Dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn"><a style="color: #CFC493;">Academic Work <span style="color:#fff;">&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./publications.html">Highlighted Publications</a>
+                <a href="./apresentations.html" style="color: #CFC493;">Academic Presentations</a>
+                <a href="./cresearch.html">Current Research</a>
+                <a href="./presearch.html">Previous Research</a>
+                <a href="./smresearch.html">Student Mentored Research</a>      
+              </div>
+            </div>
+  
+            <!-- Community-based Work Dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn"><a>Community-based Work <span>&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./krikkrakproject.html">Krik Krak Mental Health</a>   
+                <a href="./cbuilding.html">Capacity Building</a>        
+              </div>
+            </div>
+  
+            <!-- Resources Link -->
+            <div class="dropdown">
+              <button class="dropbtn"><a href="./resources.html">Resources</a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+            </div>
+  
+            <!-- Collaborations Dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn"><a>Collaborations (External Links*) <span>&#9660;</span></a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://orezoncs.wordpress.com/" target="_blank">OREZON Cit<span>&eacute;</span> Soleil</a>
+                <a href="https://www.svri.org/" target="_blank">The Sexual Violence Research Initiative</a>
+                <a href="https://www.who.int/" target="_blank">World Health Organization</a>
+                <a href="https://krikkrakmentalhealth.com/" target="_blank">Krik Krak Mental Health</a>
+                <a href="https://hfssusa.org/" target="_blank">Hindu Family Support Services</a>        
+              </div>
+            </div>
+  
+  
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-
-    <!-- Team Dropdown-->
-    <div class="dropdown">
-      <button class="dropbtn"><a href="./team.html" style="padding: 0 15px; margin-top:20px;">Our Team <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-         <a href="./team.html#lscholars">Leadership</a>
-         <a href="./team.html#ascholars">Affiliate Scientists</a>
-         <a href="./team.html#sscholars">Student Scholars</a>
-         <a href="./contactus.html">Contact Us</a>
-       </div>
-     </div>
-
-     <!-- Academic Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="color:#CFC493; padding: 0 15px; margin-top:20px;">Academic Work <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-        <a href="./publications.html">Highlighted Publications</a>
-        <a href="./apresentations.html">Academic Presentations</a>
-        <a href="./cresearch.html">Current Research</a>
-        <a href="./presearch.html">Previous Research</a>
-        <a href="./smresearch.html">Student Mentored Research</a>
-       </div>
-     </div>
-
-      <!-- Community Outreach Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Community-based Work <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content" style="margin-inline-start: 15px;">
-        <a href="./krikkrakproject.html">Krik Krak Mental Health</a>         
-        <a href="./cbuilding.html">Capacity Building</a>
-       </div>
-      </span>
-     </div>
-    
-     <!-- Resources Link-->
-     <a href="./resources.html" style="padding: 0 15px; margin-top: 22px;">Resources</a>
-
-     <!-- Collaborations Dropdown-->
-     <div class="dropdown">
-      <button class="dropbtn"><a style="padding: 0 15px; margin-top:20px;">Collaborations (External Links*) <span style="font-size:10px;">&#9660;</span></a>
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-        <a href="https://orezoncs.wordpress.com/" target="_blank">OREZON Cit<span>&eacute;</span> Soleil</a>
-        <a href="https://www.svri.org/" target="_blank">The Sexual Violence Research Initiative</a>
-        <a href="https://www.who.int/" target="_blank">World Health Organization</a>
-        <a href="https://krikkrakmentalhealth.com/" target="_blank">Krik Krak Mental Health</a>
-        <a href="https://hfssusa.org/" target="_blank">Hindu Family Support Services</a>
-       </div>
-     </div>  
-</nav>
+  </nav>
 
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
 
@@ -93,7 +107,7 @@
   <header>
     <h1 id="top">Conference Presentations</h1>
     <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
-    <span class="border2" style="text-align:center; width:50%;">
+    <span class="border2" style="text-align:center;">
       <br />
       <p style="font-weight: 700; font-size: 20px; margin-bottom: 15px; margin-top: -10px;">Learn About...</p>
       <p><span>&#x2023;</span> <a href="#22usfhealthfair">2022 USF Health Research Day</a></p>
@@ -101,20 +115,22 @@
     </span>
   </header>
 
-<section class="style1" id="22usfhealthfair">
+<section class="style2" id="22usfhealthfair">
   <br /> <br />
-  <h3 style="font-weight:700;">2022 USF Health Research Day</h3>
+  <h2 style="font-weight:700;">2022 USF Health Research Day</h2>
   <h3>Racial Disproportionality and Disparities in the Child Welfare System: Survey of Stakeholder Perceptions and Recommendations for reducing Racial Inequities</h3>
-  <h4>A submission for the Undergraduate Research Conference by McKnight-Funded SWIRL Student Scholar Fednold Thelisdort</h4>
-  <img src="./images/academicwork/2022usfhealthfair.png" alt="Conference Collage" style="width:95%; height:95%; background-color:#FFF; border-width:0;"/>
-  <img src="./images/academicwork/usf-health-research-day-2022-final-draft-edited-.jpg" alt="Conference Poster" style="width:100%; height:100%; background-color:#FFF; border-width:0;"/>
+  <h4>A submission for the Undergraduate Research Conference by McKnight-Funded SWIRL Student Scholar Fednold Thelisdort: (Click Poster to expand.)</h4>
+  <img src="./images/academicwork/2022usfhealthfair.png" alt="Conference Collage" color="background-color:#FFF; border-width:0;"/>
+  <a href="./images/academicwork/usf-health-research-day-2022-final-draft-edited-.jpg" target="_blank" style="border-width:0; padding:0;">
+    <img src="./images/academicwork/usf-health-research-day-2022-final-draft-edited-.jpg" alt="Conference Poster" style="background-color:#FFF; border-width:0; padding:0;"/>
+  </a>
   </section>
 
   <hr class="line-style" />
 
-<section class="style1" id="21hivcpr">
+<section class="style2" id="21hivcpr">
     <br /> <br />
-    <h3 style="font-weight:700;">2021 Florida HIV CPR Conference: Connecting Community, Providers, & Researchers</h3>
+    <h2 style="font-weight:700;">2021 Florida HIV CPR Conference: Connecting Community, Providers, & Researchers</h2>
     <h3>Gender Differences in Experience of Sexual Violence, HIV Knowledge, and Rape Empathy in a Community Sample of Urban Haiti</h3>
     <h4>A submission for the 2021 Florida HIV CPR Conference by Iliana A. Ruiz, BSW student; Kiara Pettus, BSW student; Dr. Rahill; and Dr. Joshi.</h4>
     <p>This virtual conference seeks to bring together community members, providers, and researchers to network with colleagues and peers, learn about ongoing and current research initiatives throughout the state, and create synergy amongst the attendees for potential future collaborative research projects. This unique virtual event brings together community stakeholders, healthcare providers, and researchers to the same room to cross-share information that might not otherwise be heard, which promotes inclusion of community and providers perspectives into the research community.</p>
@@ -127,9 +143,11 @@
       <li>Network with others who have common interests, which will enhance collaborations on HIV/AIDS protocols with answerable research questions.</li>
       </ul>
     </p>
-    <p style="margin-bottom:0;">The following poster was submitted to HIV/CPR and presented:</p>
-  <img src="./images/academicwork/florida-hiv-cpr-poster-1.jpg" alt="Conference Poster" style="width:95%; height:95%; background-color:#FFF; border-width:0;"/>
-  </section>
+    <p style="margin-bottom:0;">The following poster was submitted to HIV/CPR and presented: (Click to expand.)</p>
+  <a href="./images/academicwork/florida-hiv-cpr-poster-1.jpg" target="_blank" style="border-width:0; padding:0;">
+  <img src="./images/academicwork/florida-hiv-cpr-poster-1.jpg" alt="Conference Poster" alt="Conference Poster" style="background-color:#FFF; border-width:0; padding:0;"/>
+  </a>
+</section>
 
 <div style="height:25px;" aria-hidden="true" class="block-spacer"></div>
 
