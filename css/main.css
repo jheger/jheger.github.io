@@ -210,7 +210,7 @@ a:hover {
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 17px;
+  font-size: 1.5rem;
   border: none;
   outline: none;
   color: #fff;
@@ -295,7 +295,7 @@ a:hover {
   @media screen and (min-width: 601px) {
     header h1 {
         font-weight: 700;
-        font-size: 36px;
+        font-size: 1.5rem;
         padding-left: 24px;
         padding-right: 24px;
         box-sizing: border-box;
@@ -306,7 +306,7 @@ a:hover {
     @media screen and (min-width: 601px) {
     header h3 {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.5rem;
         padding-left: 24px;
         padding-right: 24px;
         box-sizing: border-box;
@@ -342,7 +342,7 @@ a:hover {
         @media screen and (max-width: 600px) {
         header h3 {
             font-weight: 400;
-            font-size: 18px;
+            font-size: 1.5rem;
             padding-left: 24px;
             padding-right: 24px;
             box-sizing: border-box;
@@ -370,7 +370,7 @@ a:hover {
   @media screen and (min-width: 601px) {
     .style1 h2 {
         font-weight: 700;
-        font-size: 32px;
+        font-size: 2rem;
         padding-left: 24px;
         padding-right: 24px;
         box-sizing: border-box;
@@ -381,7 +381,7 @@ a:hover {
     @media screen and (min-width: 601px) {
     .style1 h3 {
         font-weight: 700;
-        font-size: 24px;
+        font-size: 1.75rem;
         padding-left: 24px;
         padding-right: 24px;
         box-sizing: border-box;
@@ -392,7 +392,7 @@ a:hover {
     @media screen and (min-width: 601px) {
     .style1 h4 {
       font-weight: 400;
-      font-size: 16px;
+      font-size: 1.5rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -403,7 +403,7 @@ a:hover {
     @media screen and (min-width: 601px) {
     .style1 p {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1.5rem;
         padding-left: 24px;
         padding-right: 24px;
         line-height: 1.5;
@@ -433,7 +433,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 .style1 h2 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.75rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -444,7 +444,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 .style1 h3 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.6rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -455,7 +455,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 .style1 h4 {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
   padding-left: 24px;
   padding-right: 24px;
   box-sizing: border-box;
@@ -466,7 +466,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 .style1 p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     padding-left: 24px;
     padding-right: 24px;
     line-height: 1.5;
@@ -497,7 +497,7 @@ a:hover {
   @media screen and (min-width: 601px) {
   .style2 h1 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -508,7 +508,7 @@ a:hover {
 @media screen and (min-width: 601px) {
 .style2 h2 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.6rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -519,7 +519,7 @@ a:hover {
 @media screen and (min-width: 601px) {
 .style2 h3 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.75rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -530,7 +530,7 @@ a:hover {
 @media screen and (min-width: 601px) {
   .style2 h4 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.5rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -541,7 +541,7 @@ a:hover {
 @media screen and (min-width: 601px) {
 .style2 p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5rem;
     padding-left: 24px;
     padding-right: 24px;
     line-height: 1.5;
@@ -552,7 +552,7 @@ a:hover {
 @media screen and (min-width: 601px) {
 .style2 ul, li {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1.5rem;
         padding-left: 24px;
         padding-right: 24px;
         box-sizing: border-box;
@@ -583,7 +583,7 @@ a:hover {
   @media screen and (max-width: 600px) {
     .style2 h1 {
       font-weight: 700;
-      font-size: 24px;
+      font-size: 1.75rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -594,7 +594,7 @@ a:hover {
   @media screen and (max-width: 600px) {
   .style2 h2 {
       font-weight: 700;
-      font-size: 20px;
+      font-size: 1.6rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -605,7 +605,7 @@ a:hover {
   @media screen and (max-width: 600px) {
   .style2 h3 {
       font-weight: 400;
-      font-size: 22px;
+      font-size: 1.6rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -616,7 +616,7 @@ a:hover {
   @media screen and (max-width: 600px) {
     .style2 h4 {
       font-weight: 400;
-      font-size: 14px;
+      font-size: 1rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -628,7 +628,7 @@ a:hover {
   @media screen and (max-width: 600px) {
   .style2 p {
       font-weight: 400;
-      font-size: 14px;
+      font-size: 1rem;
       padding-left: 24px;
       padding-right: 24px;
       line-height: 1.15;
@@ -639,7 +639,7 @@ a:hover {
   @media screen and (max-width: 600px) {
   .style2 ul, li {
           font-weight: 400;
-          font-size: 14px;
+          font-size: 1rem;
           padding-left: 24px;
           padding-right: 24px;
           box-sizing: border-box;
@@ -655,10 +655,10 @@ a:hover {
       display: block;
       margin-right: auto;
       margin-left: auto;
-      height: 30%;
-      width: 30%;
-      min-height: 30%;
-      min-width: 30%;
+      height: 50%;
+      width: 50%;
+      min-height: 50%;
+      min-width: 50%;
       border:#CFC493;
       border-width: 2px;
       border-style: solid;
@@ -757,7 +757,7 @@ footer {
   footer h3 {
       color: #fff;
       font-weight: 400;
-      font-size: 24px;
+      font-size: 1.75rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -769,7 +769,7 @@ footer {
   footer h4 {
       color: #fff;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 1.5rem;
       font-style: italic;
       padding-left: 24px;
       padding-right: 24px;
@@ -782,7 +782,7 @@ footer {
   footer p {
       color: #fff;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 1rem;
       padding-left: 24px;
       padding-right: 24px;
       box-sizing: border-box;
@@ -794,7 +794,7 @@ footer {
 footer h3 {
     color: #fff;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
@@ -806,7 +806,7 @@ footer h3 {
 footer h4 {
     color: #fff;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     font-style: italic;
     padding-left: 24px;
     padding-right: 24px;
@@ -819,7 +819,7 @@ footer h4 {
 footer p {
     color: #fff;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
